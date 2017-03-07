@@ -1,0 +1,15 @@
+.container{
+    width: 90%;
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+    background: -webkit-linear-gradient(left,#111,#444,#444,#111);
+    flex-flow: row;
+    align-content: space-around;
+}
+.child{
+    width: 33%;
+    padding: 40px 10px;
+    text-align: center;
+    
+}
