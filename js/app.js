@@ -8,7 +8,7 @@ for (var i = 0; i < fullName.length; i++) {
     if (fullName.slice(i, i + 1) == ' ') {
         fName = fullName.slice(0, i);
         lName = fullName.slice(i, fullName.length);
-        mName = " "
+        mName = " ";
         break;
     }
 }
