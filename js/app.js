@@ -11,6 +11,9 @@ for (var i = 0; i < fullName.length; i++) {
         mName = " ";
         break;
     }
+    else{
+    fName = fullName;
+    }
 }
 for (var x = 0; x < lName.length; x++) {
     if (lName.slice(i, i + 1) == ' ') {
