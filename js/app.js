@@ -11,8 +11,10 @@ for (var i = 0; i < fullName.length; i++) {
         mName = " ";
         break;
     }
-    else{
-    fName = fullName;
+      else {
+        fName = fullName;
+        lName = ' ';
+        mName = " ";
     }
 }
 for (var x = 0; x < lName.length; x++) {
