@@ -8,8 +8,15 @@
     align-content: space-around;
 }
 .child{
-    width: 33%;
+    width: 30%;
     padding: 40px 10px;
     text-align: center;
-    
+    color: #f1f1f1;
+    margin: 0 20px;
+    text-shadow: 0 0 32px #fff;
+    background-color: #0069C5;
 }
+.child:hover h2{
+    text-decoration: underline;
+    margin-top: 5px;
+} 
